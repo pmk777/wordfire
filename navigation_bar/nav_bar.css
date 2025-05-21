@@ -1,0 +1,75 @@
+:root {
+    --red-color: #27ae60;
+    --secon-color: #b428a1;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Above nav bar content styles starts */
+.top_line {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#book_icon {
+    color: var(--red-color);
+    font-size: 20px;
+}
+
+.book_icon_text {
+    display: flex;
+    gap: 8px;
+}
+
+.book_icon_text span {
+    letter-spacing: 1px;
+}
+
+.GOD_text{
+    font-family: "Titan One", sans-serif;
+}
+ 
+.heart_shop_user_icons{
+    display: flex;
+    gap: 15px;
+    color: #070707
+}
+    
+#top_three_icon{
+    font-size: 20px;  
+}
+/* Above nav bar content styles end */
+
+/* nav bar content styles starts */
+.nav_bar{
+    background-color:var(--red-color);    
+    block-size: 40px;    
+    display: flex;    
+    align-items:center;    
+    justify-content: center;   
+}
+    
+.navbar_links {
+    gap: 20px;
+    display: flex;
+}
+
+.navbar_links a{
+    color:aliceblue;
+    justify-content: space-around;
+    text-decoration: none;
+    gap: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    /* border: solid #070707; */
+    /* padding:2%;
+    /* background-color: #070707; */
+}
+/* nav bar content styles end */
+
